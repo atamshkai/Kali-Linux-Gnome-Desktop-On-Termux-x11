@@ -31,8 +31,12 @@ pkg up -y && pkg i -y x11-repo && pkg i -y proot-distro pulseaudio termux-x11-ni
 ``` 
 ``` 
 termux-setup-storage 
-``` 
-``` 
+```
+### Add Kali-linux to proot-distro
+```
+echo "DISTRO_NAME='Kali (kali)'" >>~/../usr/etc/proot-distro/kali.sh
+```
+```
 proot-distro restore /sdcard/download/kali.tar.xz 
 ``` 
 ``` 
