@@ -1,6 +1,7 @@
 # Kali-Linux-Gnome-Desktop-On-Termux-x11
 
-This is a preinstalled Kali-Linux Distro with Gnome Desktop.For Android 12 & 13,before you install it , disable phantom process killer. [Watch Video Here](https://youtu.be/UxmQSETvAOc) 
+This is a preinstalled Kali-Linux Distro with Gnome Desktop.For Android 12 & 13,before you install it , disable phantom process killer. 
+[Watch Video Here](https://youtu.be/UxmQSETvAOc) 
 
 ## Preview ![](https://raw.githubusercontent.com/atamshkai/Kali-Linux-Gnome-Desktop-On-Termux-x11/main/kali-linux-gnome.png) 
 
