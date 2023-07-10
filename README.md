@@ -48,7 +48,6 @@ proot-distro login kali --shared-tmp --bind /dev/null:/proc/sys/kernal/cap_last_
 ``` 
 #### Then 
 ``` 
-#!/bin/bash
 export XDG_CURRENT_DESKTOP=GNOME
 export PULSE_SERVER=127.0.0.1
 export DISPLAY=:1
