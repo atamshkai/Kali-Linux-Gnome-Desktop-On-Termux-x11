@@ -20,16 +20,19 @@ pkg up -y && pkg i -y zsh wget
 wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz 
 tar -xvJf zsh.tar.xz && mv zsh/.* ~/ && rm -rf zsh && chsh -s zsh 
 ``` 
-#### Then, 
+#### For Sound, 
 ``` 
 echo "killall pulseaudio &>/dev/null" >>~/.zshrc 
 ``` 
 ```
 echo "pulseaudio --start --exit-idle-time=-1; pacmd load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1" >>~/.zshrc 
-``` 
+```
+#### Install needed packages 
 ``` 
 pkg up -y && pkg i -y x11-repo && pkg i -y proot-distro pulseaudio termux-x11-nightly 
 ``` 
+#### Give Storage Permission
+
 ``` 
 termux-setup-storage 
 ```
