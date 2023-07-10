@@ -37,6 +37,7 @@ termux-setup-storage
 ```
 echo "DISTRO_NAME='Kali (kali)'" >>~/../usr/etc/proot-distro/kali.sh
 ```
+### Restore Kali-Linux Distro
 ```
 proot-distro restore /sdcard/download/kali.tar.xz 
 ``` 
@@ -50,8 +51,12 @@ termux-x11 :1
 ``` 
 #### Then,open another session & login 
 ``` 
-proot-distro login kali --shared-tmp --bind /dev/null:/proc/sys/kernal/cap_last_cap
-``` 
+echo "proot-distro login kali --shared-tmp --bind /dev/null:/proc/sys/kernal/cap_last_cap" >>~/../usr/bin/kali
+```
+#### Start Kali
+```
+kali
+```
 #### Then 
 ``` 
 export XDG_CURRENT_DESKTOP=GNOME
