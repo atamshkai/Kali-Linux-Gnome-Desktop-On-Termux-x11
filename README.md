@@ -1,9 +1,16 @@
 # Kali-Linux-Gnome-Desktop-On-Termux-x11
+
 This is a preinstalled Kali-Linux Distro with Gnome Desktop.For Android 12 & 13,before you install it , disable phantom process killer. [Watch Video Here](https://youtu.be/UxmQSETvAOc) 
+
 ## Preview ![](https://raw.githubusercontent.com/atamshkai/Kali-Linux-Gnome-Desktop-On-Termux-x11/main/kali-linux-gnome.png) 
+
 # To Do 
-#### First,Download Ubuntu Distro From Here. [Download](https://archive.org/download/kali.tar.xz/kali.tar.xz) 
+
+#### First,Download Ubuntu Distro From Here. 
+[Download](https://archive.org/download/kali.tar.xz/kali.tar.xz) 
+
 ## Installation Download ubuntu.tar.xz to Device's Download folder first. 
+
 ### Install zsh 
 ``` 
 pkg up -y && pkg i -y zsh wget wget https://github.com/atamshkai/Termux-Zsh/raw/main/zsh.tar.xz 
@@ -73,5 +80,8 @@ exit
 ```
 apt update && apt install -y dbus-x11 gnome-shell gnome-shell-extension-dashtodock gnome-tweaks gedit gnome-terminal gnupg yaru-theme-gnome-shell yaru-theme-icon yaru-theme-gtk gnome-shell-extensions firefox-esr parole audacious pulseaudio
 ```
-## Termux [Download](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_universal.apk) ## Termux-x11 [Download](https://archive.org/download/termux-x11/app-universal-debug.apk) 
+## Termux 
+[Download](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_universal.apk) 
+## Termux-x11 
+[Download](https://archive.org/download/termux-x11/app-universal-debug.apk) 
 ## Termux-x11 Custom Resolution 1920:1080
