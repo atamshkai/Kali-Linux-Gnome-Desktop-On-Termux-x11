@@ -84,7 +84,7 @@ gnome
 ### Warning 
 If you upgrade the system,the desktop will fail to launch. 
 
-#### Fix it 
+##### Fix it if you get black screen error
 ``` 
 for file in $(find /usr -type f -iname "*login1*"); do mv -v $file "$file.back" done 
 ``` 
