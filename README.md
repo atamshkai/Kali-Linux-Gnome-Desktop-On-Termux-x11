@@ -6,10 +6,11 @@ This is a preinstalled Kali-Linux Distro with Gnome Desktop.For Android 12 & 13,
 
 # To Do 
 
-#### First,Download Ubuntu Distro From Here. 
+#### First,Download Kali-Linux Distro From Here. 
 [Download](https://archive.org/download/kali.tar.xz/kali.tar.xz) 
 
-## Installation Download ubuntu.tar.xz to Device's Download folder first. 
+## Installation 
+Download kali.tar.xz to Device's Download folder first. 
 
 ### Install zsh 
 ``` 
