@@ -43,7 +43,8 @@ proot-distro restore /sdcard/download/kali.tar.xz
 ``` 
 exit 
 ``` 
-#### Login again to terminal Before login to proot,start termux-x11 first. 
+#### Login again to terminal 
+Before login to proot,start termux-x11 first. 
 ``` 
 termux-x11 :1 
 ``` 
@@ -89,6 +90,8 @@ exit
 ```
 apt update && apt install -y dbus-x11 gnome-shell gnome-shell-extension-dashtodock gnome-tweaks gedit gnome-terminal gnupg yaru-theme-gnome-shell yaru-theme-icon yaru-theme-gtk gnome-shell-extensions firefox-esr parole audacious pulseaudio
 ```
+### Note
+zsh shell will fail to launch gnome terminal
 ## Termux 
 [Download](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_universal.apk) 
 ## Termux-x11 
