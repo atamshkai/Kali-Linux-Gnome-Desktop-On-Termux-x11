@@ -61,7 +61,9 @@ OR
 ``` 
 gnome 
 ``` 
-### Warning If you upgrade the system,the desktop will fail to launch. 
+### Warning 
+If you upgrade the system,the desktop will fail to launch. 
+
 #### Fix it 
 ``` 
 for file in $(find /usr -type f -iname "*login1*"); do mv -v $file "$file.back" done 
