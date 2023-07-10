@@ -53,6 +53,9 @@ termux-x11 :1
 ``` 
 echo "proot-distro login kali --shared-tmp --bind /dev/null:/proc/sys/kernal/cap_last_cap" >>~/../usr/bin/kali
 ```
+```
+chmod +x ~/../usr/bin/kali
+```
 #### Start Kali
 ```
 kali
