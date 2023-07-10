@@ -60,6 +60,10 @@ chmod +x ~/../usr/bin/kali
 ```
 kali
 ```
+#### Install file manager(I forgot it)
+```
+apt update && apt install -y nautilus
+```
 #### Then 
 ``` 
 export XDG_CURRENT_DESKTOP=GNOME
@@ -96,7 +100,7 @@ exit
 ``` 
 ## Manual Installation
 ```
-apt update && apt install -y dbus-x11 gnome-shell gnome-shell-extension-dashtodock gnome-tweaks gedit gnome-terminal gnupg yaru-theme-gnome-shell yaru-theme-icon yaru-theme-gtk gnome-shell-extensions firefox-esr parole audacious pulseaudio
+apt update && apt install -y nautilus dbus-x11 gnome-shell gnome-shell-extension-dashtodock gnome-tweaks gedit gnome-terminal gnupg yaru-theme-gnome-shell yaru-theme-icon yaru-theme-gtk gnome-shell-extensions firefox-esr parole audacious pulseaudio
 ```
 ### Note
 zsh shell will fail to launch gnome terminal
