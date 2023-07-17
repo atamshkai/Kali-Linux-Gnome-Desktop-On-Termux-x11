@@ -97,7 +97,7 @@ echo "chmod u+s /usr/lib/dbus-1.0/dbus-daemon-launch-helper" >>~/.bashrc
 mv -v /usr/share/applications/gnome-sound-panel.desktop /usr/share/applications/gnome-sound-panel.desktop.back 
 ``` 
 ``` 
-echo "export XDG_CURRENT_DESKTOP=GNOME" >> ~/.bashrc 
+echo "export XDG_CURRENT_DESKTOP=GNOME" >>~/.bashrc 
 ``` 
 Login again 
 ``` 
