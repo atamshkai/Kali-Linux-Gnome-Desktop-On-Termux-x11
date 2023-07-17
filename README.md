@@ -91,7 +91,7 @@ If you upgrade the system,the desktop will fail to launch.
 for file in $(find /usr -type f -iname "*login1*"); do mv -v $file "$file.back" done 
 ``` 
 ``` 
-echo "chmod u+s /usr/lib/dbus-1.0/dbus-daemon-launch-helper" >> ~/.bashrc 
+echo "chmod u+s /usr/lib/dbus-1.0/dbus-daemon-launch-helper" >>~/.bashrc 
 ``` 
 ``` 
 mv -v /usr/share/applications/gnome-sound-panel.desktop /usr/share/applications/gnome-sound-panel.desktop.back 
