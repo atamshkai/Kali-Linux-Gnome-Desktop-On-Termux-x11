@@ -74,7 +74,6 @@ mv proot-distro ~/../usr/bin
 ```
 chmod +x ~/../usr/bin/proot-distro
 ```
-```
 #### Start Kali
 ```
 kali
