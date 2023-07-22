@@ -60,6 +60,19 @@ echo "proot-distro login kali --shared-tmp --bind /dev/null:/proc/sys/kernal/cap
 ```
 ```
 chmod +x ~/../usr/bin/kali
+## Now can't be install in proot-distro after updated.So,Download it.
+```
+wget https://raw.githubusercontent.com/atamshkai/Kali-Linux-Gnome-Desktop-On-Termux-x11/main/proot-distro
+```
+```
+rm -rf ~/../usr/bin/proot-distro
+```
+```
+mv proot-distro ~/../usr/bin
+```
+```
+chmod +x ~/../usr/bin/proot-distro
+```
 ```
 #### Start Kali
 ```
